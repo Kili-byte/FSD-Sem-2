@@ -23,7 +23,7 @@
 // console.log(a);
 
 // let temp=20;
-// if(temp>30){
+// if(temp>30)\{
 //     console.log("It's a hot day");
 // }
 // else if(temp<15){
