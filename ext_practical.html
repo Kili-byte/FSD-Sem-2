@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sum Calculator</title>
+<link rel="stylesheet" href="ext_practical.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Sum Result</h2>
+    <div class="result-card">
+        <p id="output"></p>
+    </div>
+</div>
+<script>
+let n = Number(prompt("Enter N"));
+let sum = 0;
+for(let i=1;i<=n;i++)
+{
+    sum += i;
+}
+document.getElementById("output").innerHTML =
+"Sum = " + sum;
+</script>
+</body>
+</html>
